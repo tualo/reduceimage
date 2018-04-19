@@ -170,6 +170,6 @@ void Image::save(std::string name){
   cv::Mat mat = largestSimpleContour(processImage);
   std::vector<int> params;
   params.push_back(CV_IMWRITE_JPEG_QUALITY);
-  params.push_back(50);
+  params.push_back(20);
   cv::imwrite(name,mat,params);
 }
