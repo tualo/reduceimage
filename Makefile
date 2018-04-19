@@ -55,6 +55,7 @@ $(NAME).o: $(SOURCES) $(HEADERS)
 clean			:
 	$(RM) $(NAME).o $(NAME)
 	$(RM) glob_posix.o
+	$(RM) Image.o
 
 
 install		: $(NAME)

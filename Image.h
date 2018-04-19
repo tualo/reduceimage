@@ -31,15 +31,6 @@
 #include <zbar.h>
 
 
-#define int64 int64_I_dont_care
-#define uint64 uint64_I_dont_care
-#include <my_global.h>
-#undef int64
-#undef uint64
-#include <mysql.h>
-
-#include <dmtx.h>
-
 struct bcResult {
   cv::Point point;
   cv::Rect rect;
